@@ -8,15 +8,17 @@ import Midcont from "../components/MidCon"
 import Footer from "../components/Footer"
 
 const Blog = () => (
-  <Layout>
-    <SEO title="Page two" />
-    <Banner>
-      <h1>Blog</h1>
-      <p>We Believe In</p>
-    </Banner>
-   	<Midcont />
-   	<Footer />
-  </Layout>
+	<div className="blog-cover">
+	  <Layout>
+	    <SEO title="Page two" />
+	    <Banner>
+	      <h1>Blog</h1>
+	      <p>We Believe In</p>
+	    </Banner>
+	   	<Midcont />
+	   	<Footer />
+	  </Layout>
+  	</div>
 )
 
 export default Blog

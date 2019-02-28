@@ -633,6 +633,9 @@ header{background: #20232a;position: sticky;width: 100%;display: block;top: 0;z-
 .nav-main li a:before{content: ''; width: 0; height: 1px; bottom: -2px; left: 0; background: #43acff; position: absolute;  transition: 0.3s all; display: inline-block;}
 .nav-main li a:hover:before{width: 100%; right: 0;}
 
+.about-cover .banner-cover{background: #09111f;}
+.blog-cover .banner-cover{background: #1e4152;}
+.contact-cover .banner-cover{background: #106d79;}
 .banner-cover{width: 100%; display: inline-block; background: #282c34;padding: 100px 0 80px 0;text-align: center;font-family: 'Open Sans', sans-serif;}
 .banner-cover h1{font-size: 60px;line-height: 70px;color: #fff;margin-bottom: 36px;font-weight: 700;}
 .banner-cover p{font-size: 25px;line-height: 30px;background: #fff;color: #333;display: inline-block;margin: 0;padding: 13px 10px;border-radius: 4px;font-weight: 700;}

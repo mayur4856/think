@@ -8,26 +8,29 @@ import Mayur from "../images/mayur.png"
 const MidCon = () => (
     <div className="midcover"> 
       	<div className="wrapper">
-            <div className="row">
+            <div className="row case-list">
                 <div className="col-md-4">
-                    <div className="listing">
+                    <div className="listing effect">
                         <img src={Mayur} atl="mayur" />
                         <h3>Only weak thinkers do not love the sky</h3> 
                         <p>Your positive action combine with positive thinking results in success.</p>
+                        <h4>Mayur Baroliya</h4>
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="listing">
+                    <div className="listing effect">
                         <img src={Mayur} atl="mayur" />
                         <h3>Only weak thinkers do not love the sky</h3> 
                         <p>Your positive action combine with positive thinking results in success.</p>
+                        <h4>Mayur Baroliya</h4>
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="listing">
+                    <div className="listing effect">
                         <img src={Mayur} atl="mayur" />
                         <h3>Only weak thinkers do not love the sky</h3> 
                         <p>Your positive action combine with positive thinking results in success.</p>
+                        <h4>Mayur Baroliya</h4>
                     </div>
                 </div>
             </div>
